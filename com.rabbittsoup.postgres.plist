@@ -1,0 +1,25 @@
+<?xml version="1.0" encodings="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.rabbittsoup.postgres</string>
+    <key>UserName</key>
+    <string>_postgres</string>
+    <key>Program</key>
+    <string>/Applications/Server.app/Contents/ServerRoot/usr/bin/postgres</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Applications/Server.app/Contents/ServerRoot/usr/bin/postgres</string>
+        <string>-D</string>
+        <string>/Library/Server/PostgreSQL/Data</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <dict>
+        <key>SuccessfulExit</key>
+        <false/>
+    </dict>
+</dict>
+</plist>

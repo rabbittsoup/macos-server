@@ -1,0 +1,21 @@
+<?xml version="1.0" encodings="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.rabbittsoup.sa_learn</string>
+    <key>Program</key>
+    <string>/usr/local/bin/sa_learn.py</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/sa_learn.py</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>1</integer>
+        <key>Minute</key>
+        <integer>59</integer>
+    </dict>
+</dict>
+</plist>
